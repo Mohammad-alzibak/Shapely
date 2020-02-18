@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.nav-wrapper {
+    border-bottom: 1px solid #fff;
+    height: 77px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    color: #666;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.logo:hover {
+    color: #333;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+li {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #337ab7;
+}
+
+section {
+    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 3%;
+}
+
+.read-btn {
+    background-color: #745cf9;
+    padding: 20px 55px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-right: 2px;
+}
+
+.read-btn:hover {
+    background-color: #5234f9de;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.download-btn {
+    border: 2px solid #fff;
+    background-color: #ffffff00;
+    padding: 18px 35px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-left: 2px;
+}
+
+.download-btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s;
+}
